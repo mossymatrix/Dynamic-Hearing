@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav .phone {
+  max-width: 73px;
+  max-height: 71px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav .find {
+  max-width: 47px;
+  max-height: 78px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav .chat {
+  max-width: 63px;
+  max-height: 59px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav p {
+  font-weight: bold;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: #0F67A7;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.logo {
+  max-width: 420px;
+}
+
+.brand-logo {
+  width: 40%;
+  margin-top: 3em;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.blue-background {
+  background-color: #b7d1e5;
+}
+
+.blue-text {
+  color: #b7d1e5;
+}
+
+.contact button {
+  background-color: #b7d1e5;
+  font-weight: bold;
+}
+
+.contact button:hover {
+  background-color: #0F67A7;
+  color: white;
+}
+
+.contact input,
+.contact textarea {
+  background-color: gainsboro;
+}
+
+.bio img {
+  max-width: 100%;
+}
+
+iframe {
+  width: 100%;
+  border: none;
+}
+
+footer {
+  background-color: #b7d1e5;
+  color: black;
+  font-size: 1.3rem;
+}
+
+footer p {
+  font-size: 1.3rem;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  nav li {
+    min-height: 110px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    margin-top: 1.5rem;
+    background-color: #b7d1e5;
+  }
+
+  .bio .my-auto {
+    margin-top: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .blue-background {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .logo {
+    max-width: 75%;
+  }
+
+  .brand-logo {
+    width: 100%;
+  }
+}
